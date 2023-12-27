@@ -3959,7 +3959,7 @@ class DrawPolygonMixin:
             self.assertIsInstance(bounds_rect, pygame.Rect)
 
     def test_polygon__invalid_color_formats(self):
-        """Ensures draw polygon handles invalid color formats correctly."""
+        """Test that ensures draw polygon handles invalid color formats correctly."""
         kwargs = {
             "surface": pygame.Surface((4, 3)),
             "color": None,
